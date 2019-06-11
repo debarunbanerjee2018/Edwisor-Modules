@@ -1,0 +1,35 @@
+--------------------------------------------------------------------------------
+                             Code Logic for R
+-------------------------------------------------------------------------------
+
+
+# First thing in R is to clear the R environmental objects.
+# Then we have set the working directory for our R environment and checked the working directory for cross verification. 
+# We have loaded the full CSV file for different computation before going to answer the questions.
+1.
+a) # We have load "IMDB_data.csv" skipping the second row by calling the "Skip" method.
+
+b) # Used the unique function to extract the unique values from the dataset variable "Genre"
+   # we have taken the length of the unique values then set indexing in a data frame using "data.frame" method .
+c) # Checked the data types using typeof() function and changed the datatpes to Charector and Double as required. Initially all the vsriables were set    to "Integer"
+d) # Sorted the coulmn "Genre" using "Sort" function 
+e) # Followed the syntax to create a new variable then substract the mentioned column values and then square the value.
+
+--------------------------------------------------------------------------------
+                            Code Logic for Python
+--------------------------------------------------------------------------------
+
+#In Jupyter Notebook, first we should import "OS" library for OS operations.
+#Then, we should set the Working directory for importing 
+#We import pandas library for further operations.
+1. a)#Then, we use read_csv function to load the CSV file in python environment and used "skiprows" attribute for skipping the rows while importing.
+   b)#Then we have used the .unique() function to derive the unique value from "Genre" column.
+     #we have used the .size() column to fetch the length of the unique values.
+     #We have used the pandas DataFrame and .values_count() function for indexing
+     #We have used the type() function to check the type of the variables and then changed the data types of two variable to numaric from charecter       string.
+
+  c)#we have used the .to_numaric function to change the data types to  numaric. It is a good practice to use Coerce as it is allow objects to act     like numbers with old classes
+  d)# we have used the function .sort_values() to sort the column and accesnding is equal to true denotes to be arranged in alphabetical accending     order.
+
+e)# we have used the  mwethod dataframe_name['new_column_name'] to create a new column and put the square values of the differences between two columns.
+ 
